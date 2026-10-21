@@ -9,13 +9,14 @@
 <body>
 <main>
 <h1>CompoCam privacy policy</h1>
-<p class="muted">Last updated: 9 October 2026</p>
+<p class="muted">Last updated: 21 October 2026</p>
 
 <p>CompoCam – Compass Camera ("the app") is made by Oleksandr Prokopchuk, publishing as Colabox.NET ("we"). This policy explains what happens to your information when you use the app on Android.</p>
 
 <h2>Everything stays on your device</h2>
 <ul>
 <li>The camera picture, compass, tilt and level readings are processed on your device to draw the overlay. Nothing is uploaded to us.</li>
+<li>Viewshed, terrain profile and height results are calculated on your device.</li>
 <li>Photos you take are saved only to your device's Pictures folder. We have no servers and no user accounts, so we cannot see them.</li>
 <li>The app keeps a photo log on your device (time, position, bearing, tilt and note for each photo). It never leaves your device unless you export it yourself.</li>
 <li>Uninstalling the app deletes the photo log and settings. Photos you took stay in your gallery until you delete them.</li>
@@ -32,23 +33,43 @@
 <h2>Purchases</h2>
 <p>CompoCam Pro is bought through Google Play. Google handles the payment; we never see your card or payment details. The app only checks with Google Play whether Pro was purchased on your account.</p>
 
-<h2>No ads, no analytics</h2>
-<p>The app shows no ads and contains no analytics or tracking. It does not use your advertising ID.</p>
+<h2>Map, terrain and building data</h2>
+<p>The map view, viewshed and terrain profile need data from online services. To get it, the app requests the map area you are looking at, which tells these services roughly where that area is (not who you are):</p>
+<ul>
+<li><strong>Google Maps</strong> draws the map. Google processes map requests as described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
+<li><strong>Terrain elevation tiles</strong> (Copernicus DEM and the AWS Terrain Tiles open data) are downloaded from Amazon Web Services for the area around the map.</li>
+<li><strong>Building outlines</strong> from OpenStreetMap are downloaded through the public Overpass API for the area around the map.</li>
+</ul>
+<p>Downloaded data is cached on your device. These requests contain no account, name or advertising ID.</p>
+
+<h2>User manual</h2>
+<p>The manual is built into the app. When you open it, the app checks colabox.net for a newer version and, if there is one, shows it from the site. This is an ordinary web page request.</p>
+
+<h2>Ads in the free version</h2>
+<p>The free version shows a short video ad only when you choose to watch one to unlock a tool (viewshed, terrain profile or height measurement) until the app is closed. Ads are provided by Google AdMob. To show and measure ads, Google may collect and process:</p>
+<ul>
+<li>your device's advertising ID and other device identifiers,</li>
+<li>approximate location derived from your IP address,</li>
+<li>information about the ad interactions and app usage needed to serve, measure and protect against fraud.</li>
+</ul>
+<p>If you are in the European Economic Area, the United Kingdom or Switzerland, the app asks for your consent through Google's consent screen before ads are personalised. You can change your choice at any time from Ad privacy settings in the CompoCam Pro window. You can also reset or delete your advertising ID in your Android settings.</p>
+<p>Google's use of this data is described in <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use our services</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+<p>CompoCam Pro shows no ads, and the ads code does not start for Pro users. The app contains no analytics.</p>
 
 <h2>Permissions</h2>
 <ul>
 <li><strong>Camera:</strong> to show the live picture and take photos.</li>
 <li><strong>Location (while the app is open):</strong> to show coordinates, record them in the photo log and, in Pro, add them to photos.</li>
-<li><strong>Internet:</strong> used only for checking your Pro purchase with Google Play.</li>
+<li><strong>Internet:</strong> for the map, terrain and building data, the online manual, ads in the free version and checking your Pro purchase.</li>
 <li><strong>Storage (Android 9 and older only):</strong> to save photos to your gallery.</li>
 <li><strong>Vibration:</strong> for short feedback vibrations.</li>
 </ul>
 
 <h2>Children</h2>
-<p>The app is not directed at children under 13, and we do not knowingly collect information from them.</p>
+<p>The app is not directed at children under 13, and we do not knowingly collect information from them. Ads are limited to family-friendly content.</p>
 
 <h2>Data we collect</h2>
-<p>We, the developer, do not collect, store or sell any personal information. The only data processing outside your device is by Google, for location services and Pro purchases, as described above.</p>
+<p>We, the developer, do not collect, store or sell any personal information. The only data processing outside your device is by Google (location services, maps, ads and purchases) and by the map data services described above.</p>
 
 <h2>Changes</h2>
 <p>If this policy changes, we will update this page and the date at the top.</p>
